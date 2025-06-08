@@ -1,10 +1,10 @@
-# 🛡️ Cybersecurity Projects
+# Cybersecurity Projects
 
 This repository contains a curated collection of my cybersecurity projects spanning red teaming, blue teaming, cloud deployments, scripting, infrastructure simulation, and security automation. Each project highlights specific skills, technologies, and outcomes relevant to enterprise and offensive security use cases.
 
 ---
 
-## 📚 Project Index
+## Project Index
 
 1. [Red Team Infrastructure Deployment – Phishing & C2 Framework](#1-red-team-infrastructure-deployment--phishing--c2-framework)  
 2. [Enterprise Network Simulation – Multi-Firewall and Monitoring Lab](#2-enterprise-network-simulation--multi-firewall-and-monitoring-lab)  
