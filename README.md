@@ -18,21 +18,19 @@ This repository contains a curated collection of my cybersecurity projects spann
 
 ---
 
-## 1. Red Team Infrastructure Deployment – Phishing & C2 Framework
+## 1. [Phishing & C2 Infrastructure Lab](https://github.com/AtlasIndustry/phishing-c2-lab)
 
-**Goal:** Build and test a full red team infrastructure simulating real-world phishing and post-exploitation techniques  
-**Tools/Tech:** Evilginx2, Ubuntu 22.04, AWS EC2, Route 53, Apache2, Let’s Encrypt, Namecheap, Mythic C2, Athena payload, SSH tunneling, Visual Studio, C#
+**Goal:** Build and test a full red team infrastructure simulating real-world phishing and post-exploitation techniques.  
+**Tools/Tech:** Evilginx2, Ubuntu 22.04, AWS EC2, Route 53, Apache2, Let’s Encrypt, Namecheap, Mythic C2 (Athena), SSH tunneling, Visual Studio, C#
 
-**Actions:**
-- Deployed an Evilginx2 phishing framework on an AWS EC2 instance
-- Registered domain, configured DNS in Route 53, and implemented SSL/TLS using Let’s Encrypt
-- Created a realistic phishing site mimicking Google login with custom HTML/CSS and PHP
-- Built and tested a Mythic C2 server with a custom Athena payload and verified live callbacks from a Windows VM
-- Developed a lightweight C# executable for system reconnaissance and log generation
-- Implemented SSH tunneling to securely route command-and-control traffic during testing
-- Documented the full deployment and submitted to a red team manager for review
+**Key Actions:**
+- Deployed Evilginx2 phishing server on AWS EC2 with valid SSL/TLS and custom domain
+- Built Google-style phishing page with HTML/CSS/PHP and verified token capture using Evilginx2 phishlets
+- Configured Mythic C2 server with a custom Athena payload; confirmed live callback from Windows VM
+- Developed a C# recon payload and tunneled C2 traffic securely using SSH
+- Documented the full setup, with screenshots and proof-of-capture, in [project repo](https://github.com/AtlasIndustry/phishing-c2-lab)
 
-**Outcome:** Successfully captured credentials/session tokens and received working callbacks; developed a deep understanding of phishing infrastructure, TLS/SSL, C2 frameworks, Windows payloads, SSH tunneling, and AWS services
+**Outcome:** Successfully captured credentials and session tokens; demonstrated end-to-end red team infrastructure deployment with TLS, domain config, C2 beaconing, and custom payload execution.
 
 ---
 
@@ -134,32 +132,32 @@ This repository contains a curated collection of my cybersecurity projects spann
 
 ---
 
-## 8. Lead Tracking & Sales Automation System
+## 8. [Lead Tracking & Sales Automation System](https://github.com/AtlasIndustry/lead-tracker-dashboard)
 
-**Goal:** Build a scalable lead tracking and automation workflow with future integration of APIs and custom scripting  
+**Goal:** Build a scalable lead tracking and automation workflow with future API and scripting integration.  
 **Tools/Tech:** Zapier, HubSpot, Google Sheets, GitHub
 
-**Actions:**
-- Designed and implemented a Zapier-based workflow to route inbound lead data into HubSpot
-- Built a Google Sheets dashboard to visualize, organize, and track lead information
-- Created a GitHub repository to document architecture, logic flow, and planned technical enhancements
-- Outlined future integration of APIs and Google Apps Script to automate enrichment and system expansion
+**Key Actions:**
+- Designed a Zapier automation to route inbound lead data into HubSpot CRM
+- Built a dynamic Google Sheets dashboard to visualize and organize lead tracking
+- Documented system architecture, logic flow, and planned enhancements in [project repo](https://github.com/AtlasIndustry/lead-tracker-dashboard)
+- Outlined roadmap for integrating APIs and Google Apps Script to enrich and expand automation
 
-**Outcome:** Laid the groundwork for a low-code, extensible sales automation system; improved workflow design, data organization, and automation planning capabilities
+**Outcome:** Established a low-code, extensible workflow automation system. Improved data organization, planning for future system integrations, and demonstrated strategic process automation skills.
 
 ---
 
-## 9. Secure Routing & Network Segmentation Lab (Cisco Packet Tracer)
+## 9. [Secure Routing & Network Segmentation Lab](https://github.com/AtlasIndustry/secure-routing-lab)
 
-**Goal:** Design and simulate a segmented enterprise network with inter-VLAN routing, access control lists, and dynamic routing protocols  
-**Tools/Tech:** Cisco Packet Tracer, VLANs, OSPF, EIGRP, ACLs, Layer 3 Switching
+**Goal:** Simulate a segmented enterprise network with inter-VLAN routing, ACL-based access control, and dynamic routing protocol redistribution.  
+**Tools/Tech:** Cisco Packet Tracer, VLANs, OSPF, EIGRP, ACLs, Layer 3 Switches
 
-**Actions:**
-- Created a multi-subnet network with VLAN segmentation across departments (e.g., HR, Finance, IT)
-- Configured inter-VLAN routing using a Layer 3 switch
-- Implemented OSPF and EIGRP and verified redistribution between protocols
-- Applied standard and extended ACLs to restrict traffic between VLANs based on business logic
-- Tested routing functionality, failover behavior, and access restrictions
-- Documented full network topology, configurations, and routing tables
+**Key Actions:**
+- Designed multi-subnet architecture with VLANs for HR, Finance, IT, and more
+- Enabled inter-VLAN routing via a Layer 3 switch
+- Configured OSPF and EIGRP with verified redistribution between protocols
+- Applied standard and extended ACLs to enforce segmentation and business logic
+- Tested routing behavior, failover scenarios, and access restrictions
+- Documented full topology, IP schema, routing configs, and ACL rules in [project repo](https://github.com/AtlasIndustry/secure-routing-lab)
 
-**Outcome:** Demonstrated core networking skills including segmentation, access control, and routing protocol configuration; built a strong foundation in secure network architecture using Cisco best practices
+**Outcome:** Solidified core networking skills in segmentation, access control, and dynamic routing. Demonstrated ability to build and validate secure enterprise-grade network designs using Cisco best practices.
