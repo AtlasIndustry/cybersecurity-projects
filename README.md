@@ -161,3 +161,20 @@ This repository contains a curated collection of my cybersecurity projects spann
 - Documented full topology, IP schema, routing configs, and ACL rules in [project repo](https://github.com/AtlasIndustry/secure-routing-lab)
 
 **Outcome:** Solidified core networking skills in segmentation, access control, and dynamic routing. Demonstrated ability to build and validate secure enterprise-grade network designs using Cisco best practices.
+
+---
+
+## 10. [Red Team Tools Repo](https://github.com/AtlasIndustry/redteam-tools)
+
+**Goal:** Build a lightweight, extensible toolkit to support offensive security workflows and red team infrastructure automation.  
+**Tools/Tech:** Python, Bash, Mythic, Evilginx2, aircrack-ng
+
+**Key Actions:**
+- Wrote `parse_tokens.py` to extract Bearer tokens from Evilginx2 logs for fast credential reuse
+- Automated Mythic C2 startup and payload listing with `mythic_launcher.sh` for rapid operator deployment
+- Created `wifi_crack_helper.sh` to streamline WPA2 handshake cracking using aircrack-ng and rockyou.txt
+- Structured repository for modular growth as more offensive scripts and tooling are developed
+- Used clean, portable Bash and Python with inline documentation and structured output
+- These tools represent a foundational set, with many more in development as offensive capabilities expand
+
+**Outcome:** Demonstrated ability to script and automate repetitive red team tasks across phishing, C2, and wireless workflows. Reinforced infrastructure fluency and laid foundation for future offensive tool development.
