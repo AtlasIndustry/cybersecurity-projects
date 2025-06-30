@@ -15,6 +15,8 @@ This repository contains a curated collection of my cybersecurity projects spann
 7. [Scripting & Automation Projects – PowerShell, Python, and Java](#7-scripting--automation-projects--powershell-python-and-java)  
 8. [Lead Tracking & Sales Automation System](#8-lead-tracking--sales-automation-system)  
 9. [Secure Routing & Network Segmentation Lab (Cisco Packet Tracer)](#9-secure-routing--network-segmentation-lab-cisco-packet-tracer)
+10. [Red Team Tools Repo](#10-red-team-tools-repo)
+11. [Offensive Wireless & RF Recon Lab](#11-offensive-wireless--rf-recon-lab)
 
 ---
 
