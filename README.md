@@ -178,3 +178,19 @@ This repository contains a curated collection of my cybersecurity projects spann
 - These tools represent a foundational set, with many more in development as offensive capabilities expand
 
 **Outcome:** Demonstrated ability to script and automate repetitive red team tasks across phishing, C2, and wireless workflows. Reinforced infrastructure fluency and laid foundation for future offensive tool development.
+
+---
+
+## 11. [Offensive Wireless & RF Recon Lab](https://github.com/AtlasIndustry/offensive-wireless-lab)
+
+**Goal:** Build a modular wireless security lab to explore physical-layer attacks across Wi-Fi, Bluetooth Low Energy (BLE), and Software Defined Radio (SDR).  
+**Tools/Tech:** aircrack-ng, Bash, bleah, rtl_433, HackRF (planned), ALFA AWUS036ACH
+
+**Key Actions:**
+- Cracked WPA2 handshake using `aircrack-ng` and `rockyou.txt` in a test environment
+- Created `wifi_crack_helper.sh` to automate WPA2 cracking workflows
+- Documented BLE and SDR research roadmap with tool and hardware requirements
+- Structured modular repo with roadmap (`rf_learning.md`), tooling, and hardware documentation
+- Demonstrated ability to plan and execute attacks beyond traditional network layers
+
+**Outcome:** Laid the foundation for practical RF-based red team operations. The repo will evolve into a full stack of BLE spoofing, SDR signal analysis, and sub-GHz replay attacks as hardware and research progress.
