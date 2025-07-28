@@ -212,4 +212,4 @@ This repository contains a curated collection of my cybersecurity projects spann
 - Addressed regulatory requirements for HIPAA and PCI-DSS through identity enforcement and centralized logging with CloudTrail and GuardDuty  
 - Delivered full documentation set: risk reports, architecture diagrams, compliance analysis, and cost-controlled implementation plan  
 
-**Outcome:** Built a professionally documented, scalable hybrid network architecture under a $50K budget constraint. Project showcases real-world GRC alignment, secure network design, and cloud transition strategy—submitted for graduate-level credit at Western Governors University.
+**Outcome:** Built a professionally documented, scalable hybrid network architecture under a $50K budget constraint. Project showcases real world GRC alignment, secure network design, and cloud transition strategy submitted for graduate-level credit at Western Governors University.
