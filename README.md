@@ -17,6 +17,7 @@ This repository contains a curated collection of my cybersecurity projects spann
 9. [Secure Routing & Network Segmentation Lab (Cisco Packet Tracer)](#9-secure-routing--network-segmentation-lab-cisco-packet-tracer)
 10. [Red Team Tools Repo](#10-red-team-tools-repo)
 11. [Offensive Wireless & RF Recon Lab](#11-offensive-wireless--rf-recon-lab)
+12. [Company Network Merger – Zero Trust Architecture](#12-company-network-merger--zero-trust-architecture)
 
 ---
 
@@ -196,3 +197,19 @@ This repository contains a curated collection of my cybersecurity projects spann
 - Demonstrated ability to plan and execute attacks beyond traditional network layers
 
 **Outcome:** Laid the foundation for practical RF-based red team operations. The repo will evolve into a full stack of BLE spoofing, SDR signal analysis, and sub-GHz replay attacks as hardware and research progress.
+
+---
+
+## 12. [Company Network Merger – Zero Trust Architecture](https://github.com/AtlasIndustry/company-network-merger)
+
+**Goal:** Merge two enterprise networks into a secure, cloud-forward architecture that replaces legacy infrastructure and enforces Zero Trust principles.  
+**Tools/Tech:** Okta (SSO, MFA), Cloud RADIUS, AWS (RDS, FSx, Beanstalk, Transfer Family), FortiGate NGFW, VLAN segmentation
+
+**Key Actions:**
+- Consolidated Company A and Company B infrastructure by decommissioning legacy devices and migrating services to AWS  
+- Enforced Zero Trust architecture with identity-based access control, MFA, and device posture checks using Okta and Cloud RADIUS  
+- Designed and documented end-to-end topology, including AWS routing, NGFW segmentation, and secure wireless authentication  
+- Addressed regulatory requirements for HIPAA and PCI-DSS through identity enforcement and centralized logging with CloudTrail and GuardDuty  
+- Delivered full documentation set: risk reports, architecture diagrams, compliance analysis, and cost-controlled implementation plan  
+
+**Outcome:** Built a professionally documented, scalable hybrid network architecture under a $50K budget constraint. Project showcases real-world GRC alignment, secure network design, and cloud transition strategy—submitted for graduate-level credit at Western Governors University.
