@@ -213,3 +213,19 @@ This repository contains a curated collection of my cybersecurity projects spann
 - Delivered full documentation set: risk reports, architecture diagrams, compliance analysis, and cost-controlled implementation plan  
 
 **Outcome:** Built a professionally documented, scalable hybrid network architecture under a $50K budget constraint. Project showcases real world GRC alignment, secure network design, and cloud transition strategy submitted for graduate-level credit at Western Governors University.
+
+---
+
+## 13. NASA Space Place – HTML Injection / Client-Side DoS Case Study
+
+**Goal:** Document a responsibly reported web security finding involving unsanitized user input, HTML injection, forced outbound browser requests, and client-side denial-of-service behavior.
+**Tools/Tech:** Chrome DevTools, Network tab, Console logging, HTML iframe testing, OAST-style request validation, browser-based security analysis
+
+**Key Actions:**
+- Identified that user-controlled story input rendered raw HTML instead of safely escaping or sanitizing submitted content
+- Tested controlled iframe payloads to validate whether injected HTML could force outbound browser requests to external hosts
+- Used Chrome DevTools Network and Console views to observe repeated GET requests, browser instability, and tab crash behavior
+- Assessed impact as client-side HTML injection with denial-of-service risk and possible XSS-class behavior depending on rendering context
+- Documented reproduction steps, observed behavior, expected behavior, security impact, and remediation guidance in a responsible disclosure-style report
+
+**Outcome:** Produced a professional vulnerability case study demonstrating web application testing, input sanitization analysis, browser/network evidence collection, impact assessment, and remediation planning. Project showcases responsible security research and clear technical reporting based on a NASA Space Place bug bounty submission.
