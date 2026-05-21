@@ -18,7 +18,7 @@ This repository contains a curated collection of my cybersecurity projects spann
 10. [Red Team Tools Repo](#10-red-team-tools-repo)
 11. [Offensive Wireless & RF Recon Lab](#11-offensive-wireless--rf-recon-lab)
 12. [Company Network Merger – Zero Trust Architecture](#12-company-network-merger--zero-trust-architecture)
-13. [NASA Space Place – HTML Injection / Client-Side DoS Case Study](#13-NASA-Space-Place--HTML-Injection-/-Client-Side-DoS-Case-Study)
+13. [NASA Space Place – HTML Injection / Client-Side DoS Case Study](#13-nasa-space-place--html-injection--client-side-dos-case-study)
 
 ---
 
@@ -217,7 +217,7 @@ This repository contains a curated collection of my cybersecurity projects spann
 
 ---
 
-## 13. [NASA Space Place – HTML Injection / Client-Side DoS Case Study](#13-NASA-Space-Place--HTML-Injection-/-Client-Side-DoS-Case-Study)
+## 13. NASA Space Place – HTML Injection / Client-Side DoS Case Study
 
 **Goal:** Document a responsibly reported web security finding involving unsanitized user input, HTML injection, forced outbound browser requests, and client-side denial-of-service behavior.
 **Tools/Tech:** Chrome DevTools, Network tab, Console logging, HTML iframe testing, OAST-style request validation, browser-based security analysis
