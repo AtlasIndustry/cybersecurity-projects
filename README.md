@@ -217,7 +217,7 @@ This repository contains a curated collection of my cybersecurity projects spann
 
 ---
 
-## 13. [NASA Space Place – HTML Injection / Client-Side DoS Case Study]
+## 13. [NASA Space Place – HTML Injection / Client-Side DoS Case Study](#13-NASA-Space-Place--HTML-Injection-/-Client-Side-DoS-Case-Study)
 
 **Goal:** Document a responsibly reported web security finding involving unsanitized user input, HTML injection, forced outbound browser requests, and client-side denial-of-service behavior.
 **Tools/Tech:** Chrome DevTools, Network tab, Console logging, HTML iframe testing, OAST-style request validation, browser-based security analysis
